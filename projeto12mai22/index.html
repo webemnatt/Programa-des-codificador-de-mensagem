@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Programa de descodificação</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <header>
+         
+      <H1>PROGRAMA (DES)CODIFICADOR DE MENSAGEM</H1>
+      </header>
+      <section>
+        <div class="divinput">
+          <textarea
+            class="input-texto"
+            placeholder="Digite o texto que deseja codificar ou descodificar:" spellcheck="false"
+          ></textarea>
+          <p class="informacao">Apenas letras maiúsculas e minúsculas</p>
+          <div class="botoes">
+            <button class="codificar" onclick="botaoCodificar()">Codificar</button>
+    
+            <button class="descodificar" onclick="botaoDescodificar()">
+              Descodificar
+            </button>
+       
+          </div>
+        </div>
+        <div class="divMensagem">
+          <textarea class="mensagem" placeholder="O resultado aparecerá aqui:" spellcheck="false"></textarea>
+          <div class="divCopiar">
+            <p class="vazio"></p>
+            <button class="copiar" onclick="botaoCopiar()">Copiar</button>
+          </div>
+        </div>
+      </section>
+  
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

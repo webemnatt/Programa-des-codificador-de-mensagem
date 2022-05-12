@@ -1,0 +1,139 @@
+body {
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+
+h1 {
+  background-image: url("/img/logoAlura.png");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: contain;
+  color: #0a3871;
+  text-align: center;
+  font-size: x-large;
+}
+section {
+  border-radius: 10px;
+  display: flex;
+}
+
+.divinput {
+  display: inline-block;
+  width: 100%;
+  background-color: #0a3871;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.divMensagem {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  margin-left: 10px;
+}
+
+p.informacao {
+  background-image: url("/img/atencao.png");
+  background-repeat: no-repeat;
+  font-size: 11px;
+  color: whitesmoke;
+  padding: 4px;
+  padding-left: 20px;
+  margin: 10px;
+}
+p.vazio {
+  font-size: 11px;
+  color: whitesmoke;
+  padding: 14px;
+  padding-left: 20px;
+}
+button {
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 25%;
+  border-color: #0a3871;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 13px;
+}
+
+div.botoes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.codificar {
+  background-color: #0a3871;
+  color: white;
+  border-color: whitesmoke;
+  width: 100%;
+}
+.descodificar {
+  background-color: whitesmoke;
+  color: #0a3871;
+  width: 100%;
+}
+
+.copiar {
+  background-color: white;
+  color: #0a3871;
+  width: 100%;
+}
+
+.copiar:after {
+  content: "COPIADO!";
+  background: white;
+  position: absolute;
+  opacity: 0;
+}
+
+.copiar:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 100;
+  transition: 0s;
+}
+
+textarea {
+  padding: 0px;
+  color: #0a3871;
+  border-style: none;
+  resize: none;
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  font-size: 20px;
+}
+
+textarea:focus {
+  background-color: #cbd9ea;
+  outline-color: white;
+  color: #0a3871;
+  border-radius: 15px;
+}
+
+.input-texto {
+  background-color: #0a3871;
+  border-radius: 10px;
+  height: 350px;
+}
+.mensagem {
+  height: 350px;
+  border-radius: 10px;
+  background-color: white;
+}
